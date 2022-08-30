@@ -45,3 +45,9 @@ body{
     text-decoration: none;
 }
 /* .........top Header images style......... */
+.right-child img{
+    width: 426px;
+    height: 512px;
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
