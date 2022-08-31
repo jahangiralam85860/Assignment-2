@@ -57,6 +57,39 @@ body{
     padding: 20px 20px 0px 0px;
 }
 
+/* article area */
+.aside{
+    margin-top: 30px;
+    display: flex;
+}
+.details-button{
+    border-radius: 15px;
+    margin-right: 20px;
+    width: 600px;
+    height: auto;
+    background-color: green;
+}
+.details-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.details-menu ul li{
+    padding: 0px 0px 20px 0px;
+}
+.details-menu ul li a{
+    text-decoration: none;
+    background-color: red;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.details-play{
+    background-color: rgb(168, 185, 37);
+}
+
 /* footer area */
 .footer-area{
     width: 100%;
