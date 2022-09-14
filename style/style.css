@@ -92,11 +92,20 @@ body{
 }
 .details-play{
     width: 70%;
+    flex: grid;
+    box-shadow: 0px 0px 20px -1px;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(168, 185, 37);
+    background-color: rgb(241, 243, 229);
+}
+.images{
+    padding: 10px;
+    text-align: center;
 }
 .images img{
-    width: 200px;
+    width: 210px;
+    height: 150px;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 
