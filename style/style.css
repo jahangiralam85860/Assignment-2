@@ -78,13 +78,18 @@ body{
 }
 .details-menu ul li a{
     text-decoration: none;
-    background-color: red;
+    background-color: white;
+    color: black;
+    font-weight: bold;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
 }
-
+.details-menu ul li a:hover{
+    background-color: rgb(109, 162, 109);
+    transition: 2s;
+}
 .details-play{
     width: 70%;
     grid-template-columns: repeat(3, 1fr);
